@@ -1,0 +1,117 @@
+.BaseContainer {
+  #cursor: none;
+  color: white;
+  background: black;
+  min-height: 100vh;
+
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.LeftColumn {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 20px;
+  padding: 20px;
+}
+
+.MiddleColumn {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-grow: 2;
+}
+
+.RightColumn {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 20px;
+  padding: 20px;
+}
+
+.WeatherToday {
+  display: grid;
+  grid: repeat(2, 35px) / auto-flow 95px;
+}
+
+.Divider {
+  display: block;
+    border: none;
+    height: 1px;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+    #background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
+.Spacer {
+  padding: 30px;
+}
+
+sup {
+  font-size: 50%;
+  line-height: 50%;
+}
+
+.normal {
+  color: #fff;
+}
+
+.bright {
+  color: #fff;
+}
+
+.dim {
+  color: #fff;
+}
+
+.xsmall {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.small {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.medium {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.large {
+  font-size: 65px;
+  line-height: 65px;
+}
+
+.xlarge {
+  font-size: 75px;
+  line-height: 75px;
+  letter-spacing: -3px;
+}
+
+.thin {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+}
+
+.light {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+}
+
+.regular {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.bold {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
